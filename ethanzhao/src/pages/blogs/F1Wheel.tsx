@@ -176,9 +176,9 @@ const F1Wheel = () => {
             the gun for printing my wheel.
           </p>
           <Image
-            src="/F1Wheel/FIN01v1Printed.JPG"
+            src="/F1Wheel/FIN01v1Printed.jpg"
             alt="The first printed wheel"
-            caption="First time 3d printing!!"
+            caption="First time 3d printing!! Anndd I misnamed the version"
           />
           <h2 className="h2-blog">Electronics Integration</h2>
           <p className="mb-4">
