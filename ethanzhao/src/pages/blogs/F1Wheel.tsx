@@ -58,7 +58,7 @@ const F1Wheel = () => {
           <Image
             src="/F1Wheel/TinkerCADFirstDesign.png"
             alt="First TinkerCAD Design"
-            caption="Very rudimentary first draft of the wheel"
+            caption="The my very rudimentary first draft of the wheel"
           />
           <p className="mb-4">
             Clearly, this design was far from perfect, (sharp, fradgile edges, no way
@@ -108,6 +108,11 @@ const F1Wheel = () => {
             src="/F1Wheel/OnshapeFirstAttempt.png"
             alt="My first attempt at building a full scale F1 wheel"
             caption="The wheel wasn't even built as a singular part 😭"
+          />
+          <Image
+            src="/F1Wheel/OnshapeFirstAttemptBack.png"
+            alt="My first attempt at building a full scale F1 wheel"
+            caption="The back of the wheel"
           />
           <p className="mb-4">
             A key principle that I stand by is that experience is by far the best teacher.
@@ -178,7 +183,39 @@ const F1Wheel = () => {
           <Image
             src="/F1Wheel/FIN01v1Printed.jpg"
             alt="The first printed wheel"
-            caption="First time 3d printing!! Anndd I misnamed the version"
+            caption="First time 3d printing!! Anndd I misnamed the version."
+          />
+          <p className="mb-4">
+            I forgot the exact price, but it was somewhere between $60 and $80, a HUGE improvement
+            over what a sim racing wheel would cost you if you bought it online (On average upwards
+            of $300). But of course, the wheels online all work, and you can actually race with them.
+            I, on the other hand, hadn't gotten there yet.
+          </p>
+          <p className="mb-4">
+            Some more little things I wanted to point out, before getting to the next iteration of the
+            wheel: 1. We can actually see the inner portion of the back of my wheel! There were 2 rectangular
+            holes cut out of the back in order for the extrusions of the paddle shifters to fit through and
+            actuate the buttons inside the wheel. There was also a hole for the USB-C female port, as well as
+            another rectangular cutout that I wanted to put some control systems in. Unfortunately, 2. The
+            size of the wheel was actually too large for the 3D printer I was using. As a
+            result, I sloppily (lazily) applied a scale on the wheel without realizing that this would
+            cause several knock on effects: The hole in the back would no longer fit a USB-C female port,
+            the extrusions of the paddle shifters would no longer fit in the rectangular cutouts in the back
+            of the wheel, and all the screw sizes were wrong.
+          </p>
+          <h1 className="h1-blog">FIN01 v2</h1>
+          <p className="mb-4">
+            Keeping those issues in mind, I started on the next iteration of the wheel, what would, as of now,
+            be the final version of the wheel (bar some very minor revisions to how the wheel channels wiring).
+            In this iteration, my goals were to 1. Adress the paddle shifter issues from the pervious version,
+            2. Ensure that a quickrelease system was added to allow for easy attachment and detachment of the
+            wheel from the base, 3. Create a wheelbase, and 4. MAKE IT WORK!!! I'm proud to say that I acheived
+            all 4 of these goals!! (somewhat)
+          </p>
+          <Image
+            src="/F1Wheel/FIN01v2.jpg"
+            alt="The second version of the wheel"
+            caption="Front of the wheel (left), back of the wheel (right)"
           />
           <h2 className="h2-blog">Electronics Integration</h2>
           <p className="mb-4">
