@@ -43,17 +43,23 @@ const App = () => {
         <hr className="mt-4 border-t-2 border-gray-200"></hr>
         <div className="pt-4 py-2 px-4 -mx-4 flex flex-row space-x-4 overflow-x-auto">
           <ProjectCard
+            projectName="Stride"
+            projectDescription="Your personallized AI running coach. Built at Irvine Hacks 2026."
+            projectLanguages={["AI", "Arduino"]}
+            projectLink="https://devpost.com/software/stride-rk2tdc"
+          />
+          <ProjectCard
             projectName="ZotRide"
             projectDescription="Student ridesharing platform made exclusively for UCI students."
             projectLanguages={["React", "Python"]}
             projectLink="https://github.com/IsaacPhoon/ZotRide"
           />
-          <ProjectCard
+          {/* <ProjectCard
             projectName="Rsrv"
             projectDescription="Modern, real-time court reservation management application built for badminton facilities."
             projectLanguages={["React", "NodeJS"]}
             projectLink="https://github.com/dolphinalt/rsrv"
-          />
+          /> */}
           <ProjectCard
             projectName="F1 Wheel"
             projectDescription="A 3D printed Formula 1 style steering wheel with working buttons as a gaming peripheral."
