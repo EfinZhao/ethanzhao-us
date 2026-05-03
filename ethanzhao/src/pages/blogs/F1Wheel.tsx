@@ -12,6 +12,15 @@ const F1Wheel = () => {
       tags={["3D Printing", "Arduino", "CAD Design"]}
       content={
         <>
+          <div className="mb-6 aspect-video">
+            <iframe
+              className="w-full h-full rounded-lg"
+              src="https://www.youtube.com/embed/_H4djEOiXu8"
+              title="FIN01: 3D Printed F1 Steering Wheel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
           <p className="h1-blog">Introduction</p>
           <p className="mb-4">
             In the fall of 2023, my Formula 1 addiction started. I was
